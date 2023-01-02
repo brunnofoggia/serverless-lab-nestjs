@@ -1,0 +1,5 @@
+### Local Hello
+GET {{$dotenv URL}}/hello HTTP/2
+
+### Serverless Hello
+GET {{$dotenv URL}}/{{$dotenv STAGE}}/hello HTTP/2
